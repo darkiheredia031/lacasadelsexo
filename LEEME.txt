@@ -1,0 +1,21 @@
+LA CASA DEL SEXO — sitio web estático
+
+Archivos:
+- index.html
+- styles.css
+- assets/logo.jpg
+
+Cómo probar:
+1. Extrae el ZIP.
+2. Abre index.html en tu navegador.
+
+Cómo publicar gratis en Netlify:
+1. Entra en https://app.netlify.com/drop
+2. Arrastra la carpeta "la_casa_del_sexo_web" (o el ZIP extraído) al área de carga.
+3. Netlify te dará un enlace público.
+
+Los botones llevan a:
+- https://t.me/lacasadelsexo2
+- https://t.me/LacasadelsexoBot
+
+El sitio incluye una pantalla de confirmación +18. Es una comprobación visual, no una verificación de edad real.

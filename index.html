@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090507">
+  <meta name="description" content="La Casa del Sexo — comunidad para adultos. Únete a nuestro Telegram o visita nuestro bot.">
+  <title>La Casa del Sexo | Comunidad +18</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <main class="page">
+    <header class="brand">
+      <img class="logo" src="assets/logo.jpg" alt="Logo de La Casa del Sexo">
+      <p class="eyebrow">COMUNIDAD EXCLUSIVA PARA ADULTOS</p>
+      <h1>LA CASA <span>DEL</span> SEXO</h1>
+      <p class="intro">Un espacio para mayores de edad. Entra a nuestra comunidad o descubre nuestro bot de Telegram.</p>
+    </header>
+
+    <section class="actions" aria-label="Enlaces de Telegram">
+      <a class="telegram-button primary" href="https://t.me/lacasadelsexo2" target="_blank" rel="noopener noreferrer">
+        <span class="telegram-icon">➤</span>
+        <span><strong>ENTRAR AL TELEGRAM</strong><small>Únete a nuestra comunidad</small></span>
+      </a>
+      <a class="telegram-button secondary" href="https://t.me/LacasadelsexoBot" target="_blank" rel="noopener noreferrer">
+        <span class="bot-icon">✦</span>
+        <span><strong>ABRIR EL BOT</strong><small>Conoce nuestro bot oficial</small></span>
+      </a>
+    </section>
+
+    <p class="notice">Contenido y comunidad destinados únicamente a personas mayores de 18 años.</p>
+    <footer>© <span id="year"></span> LA CASA DEL SEXO · Todos los derechos reservados</footer>
+  </main>
+
+  <div class="age-overlay" id="ageOverlay" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+    <div class="age-card">
+      <div class="age-mark">18+</div>
+      <h2 id="ageTitle">¿Eres mayor de 18 años?</h2>
+      <p>Este sitio está destinado exclusivamente a personas adultas.</p>
+      <div class="age-actions">
+        <button id="enterBtn" class="confirm">Sí, soy mayor de edad</button>
+        <a class="leave" href="https://www.google.com/">No, salir</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("enterBtn").addEventListener("click", () => {
+      document.getElementById("ageOverlay").classList.add("hidden");
+    });
+  </script>
+</body>
+</html>
